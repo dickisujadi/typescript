@@ -1,5 +1,6 @@
 "use strict";
-const message = 'Hello World';
-const second_message = 'My Name is Dicki';
-console.log(`${message} ${second_message}`);
+let age = 20;
+if (age < 50)
+    age += 10;
+console.log(age);
 //# sourceMappingURL=index.js.map
