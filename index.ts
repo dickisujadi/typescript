@@ -1,4 +1,12 @@
-const message : String = 'Hello World'
-const second_message : String = 'My Name is Dicki'
+let sales : number = 123_456_789;
+let course : string = 'TypeScript';
+let is_published : boolean = true;
 
-console.log(`${message} ${second_message}`)
+// OR
+
+let sales_ = 123_456_789;
+let course_ = 'TypeScript';
+let is_published_ = true;
+
+// AND
+let level; /** CONSIDER AS TYPE OF ANY */
