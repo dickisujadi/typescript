@@ -3,9 +3,14 @@ type Employee = {
     name : string
 }
 
-let employee : Employee = {
-    id: 1,
-    name : 'Dicki Sujadi'
+function registEmployee(id_ : number, name_ : string) : Employee {
+    let obj : Employee = {
+        id: id_,
+        name: name_
+    }
+
+    return obj
 }
 
+let employee = registEmployee(1, 'Dicki Sujadi')
 console.log(employee)
