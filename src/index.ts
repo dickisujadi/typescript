@@ -1,6 +1,11 @@
-let age : number = 20
+type Employee = {
+    id : number,
+    name : string
+}
 
-if(age < 50)
-    age += 10
+let employee : Employee = {
+    id: 1,
+    name : 'Dicki Sujadi'
+}
 
-console.log(age);
+console.log(employee)

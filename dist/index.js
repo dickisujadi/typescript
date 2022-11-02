@@ -1,6 +1,7 @@
 "use strict";
-let age = 20;
-if (age < 50)
-    age += 10;
-console.log(age);
+let employee = {
+    id: 1,
+    name: 'Dicki Sujadi'
+};
+console.log(employee);
 //# sourceMappingURL=index.js.map
